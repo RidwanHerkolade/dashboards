@@ -1,0 +1,30 @@
+.users__div {
+    margin: 2rem 0rem;
+}
+/* .user__div {
+   
+} */
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    font-family: var(--font-family);
+    text-align: left;
+}
+tbody tr {
+    width: 100%;
+    border: 0.1px solid var(--color-para);
+    font-size: var(--font-logo);
+    color: var(--color-h3);
+    font-weight: 800;
+}
+tbody tr td {
+    padding: 0.5rem 0.4rem;
+}
+thead th{
+    background-color: var(--color-purpless);
+    border-radius: 0.1rem;
+    border-collapse: collapse; 
+    padding: .5rem 0.4rem;
+    color: var(--color-h3);
+    text-transform: capitalize;
+}

@@ -1,0 +1,126 @@
+.login__divs {
+    margin: 0rem 4rem;
+}
+.login__content h2 {
+    font-size: var(--font-desq);
+    font-weight: 900;
+}
+.login__content p {
+    font-size: var(--font-logos);
+    font-weight: 600;
+    color: var(--color-h3);
+}
+.form {
+    width: 100%;
+}
+.forms {
+    margin: 1rem 0rem;
+}
+.forget__password .link{
+    color: var(--color-purples);
+    font-size: var(--font-logo);
+    text-transform: capitalize;
+    text-decoration: none;
+}
+  
+  .custom-toast-body {
+    font-family: var(--font-family);
+    font-size: var(--font-small);
+    display: flex;
+  }
+label {
+    font-size: var(--font-logo);
+    text-transform: capitalize;
+    color: var(--color-h3);
+    font-weight: 600;
+
+}
+.input {
+    width: 100%;
+}
+.input input{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: var(--color-para);
+    border: 0rem;
+    outline: 0rem;
+    border: 0.3px solid var(--color-para);
+    font-size: var(--font-logos);
+    font-family: var(--font-family);
+}
+.formss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+}
+button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding: 0.5rem 0rem;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: var(--font-logos);
+    cursor: pointer;
+    border-radius: 0.4rem;
+    text-transform: capitalize;
+    color: var(--color-white);
+    background-color: var(--color-purples);
+}
+.login__alternatives {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem;
+    gap: 1rem;
+}
+.login__icon {
+    padding: 0.5rem;
+    border: 1px solid var(--color-para);
+    cursor: pointer;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.dont {
+    font-size: var(--font-logos);
+    text-align: center;
+    color: var(--color-h3);
+}
+.dont .span {
+    color: var(--color-purpless);
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: 700;
+}
+.errors {
+    color: var(--color-red);
+}
+@media (min-width:280px ) and (max-width:391px ) {
+    .login__divs {
+        margin: 2rem 2rem;
+    }
+}
+@media (min-width:392px ) and (max-width:480px ) {
+    .login__divs {
+        margin: 2rem 2rem;
+    }
+}
+@media (min-width:481px ) and (max-width:767px ) {
+    .login__divs {
+        margin: 2rem 2rem;
+    }
+}
+@media (min-width:767px ) and (max-width:991px ) {
+    .login__divs {
+        margin: 2rem 2rem;
+    }
+}
